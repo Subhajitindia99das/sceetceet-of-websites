@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>CheatSheet Template</title>
+</head>
+<body>
+    <nav>
+        <div class="content center"><img src="logo.png" alt="copy">
+           <span><h2>sheet is for programming language</h2></span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol>
+            <li><b>JavaScript Code</b></li>
+                <pre class="language-js"><code>var i = 5;</code>
+                </pre>
+
+            <li><b>Html Code</b></li>
+            <pre class="language-html"><code>
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+    &ltdiv class="cont"&gt
+        &ltp&gt
+            this is the main code for using it in the JavaScript form that will help us to improve our
+            coding speed in the compittion and also during the final projects .. Not only in the 
+            Exam but also we will get the access of it in the funtime time so now I am very 
+            happy that I have already finished the work in the sence of joy.
+        &lt/p&gt
+    &lt/div&gt
+&lt/body&gt
+&lt/html&gt</code></pre>
+            <li><b>Python Code</b></li>
+            <pre class="language-python"><code>
+li=[]
+for i in range(100):
+    if i%5==0:
+        li.append(i)
+print(li)
+
+# =========LIST COMPREHENSION=========================================
+For list comprehensions secure brackets is used."""
+
+n=int(input())
+print([i for  i in range(n) if i%3==1])
+
+# =============DICT COMPREHENSION=====================================
+To use dictionary comprehensions Carly brackets is used.
+n=int(input())
+a={i:f"item{i}" for i in range(n)}
+print(a)
+print({va:ke for ke,va in a.items()})
+
+# ==========SET COMPREHENSION=========================================
+The set comprehension returns only one item from many same items. Through carly brackets set
+comprehensions is recognised.
+
+print({ar for ar in ["dress1", "dress2", "dress1", "dress2",
+                        "dress1", "dress2", "dress1", "dress2"]})
+
+# ==================GENERATOR========================================
+
+#n=int(input())
+#p=(i for i in range(n) if i%3==0)
+print(p.__next__())
+print(p.__next__())
+print(p.__next__())
+
+for item in p:
+    print(item)
+
+# ============================exercise==============================================
+
+a=input("list:l , dict:d , set:s -->\n")
+if a=="l":
+    b=int(input("numbers of item to input:\n"))
+    if b==0:
+        print("[item(0)]")
+    else:
+        c=input("use remainder y or n:\n")
+        if c=="y":
+            d=int(input("the number of remainder:\n"))
+            print([i for i in range(b+1) if i%d==0])
+        elif c=="n":
+            print([i for i in range(b+1)])
+elif a=="d":
+    b=int(input("number of items to print:\n"))
+    print({i:f"item{i}" for i in range(b)})
+elif a=="s":
+    e=input("input information to use:\n")
+    print({i for i in [e]})
+            </code></pre>
+        </ol>
+    </div>
+</body>
+</html>

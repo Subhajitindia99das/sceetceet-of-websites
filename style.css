@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    height: 5vh;
+    margin: 0rem;
+}
+
+nav {
+    /* display: flex; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 4vh;
+}
+
+.container {
+    /* background-color: red; */
+    width: 70vw;
+    /* text-align: center; */
+    margin: auto;
+}
+
+li b {
+    border: 2px double rgb(174, 240, 174); 
+    background-color: rgb(174, 240, 174);   
+    border-radius: 10px;
+    text-align: center;
+}
+
+.toolbar-item > button{
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 25px !important;
+    height: 5vh !important;
+    width: 5vw !important;
+    font-size: large !important;
+}
